@@ -2,7 +2,7 @@ import math
 import pytest
 import numpy as np
 
-from src.models.european_pricer import BSMEuropeanPricer, implied_volatility
+from european_pricer import BSMEuropeanPricer, implied_volatility
 
 # --- Fixtures ----------------------------------------------------------------
 @pytest.fixture
