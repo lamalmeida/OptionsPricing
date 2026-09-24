@@ -2,7 +2,7 @@ import math
 import pytest
 import numpy as np
 
-from src.models.binomial_pricer import BinomialPricer
+from binomial_pricer import BinomialPricer
 
 # --- Fixtures ----------------------------------------------------------------
 @pytest.fixture
